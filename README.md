@@ -1,10 +1,10 @@
-# 🍔 FastAPI Restaurantes
+# FastAPI Restaurantes
 
 API REST construída com FastAPI que funciona como uma camada intermediária para dados de cardápio de redes de fast food. A aplicação busca informações de uma fonte externa e as disponibiliza através de endpoints próprios, com suporte a filtragem por restaurante.
 
 ---
 
-## 📋 Endpoints
+## Endpoints
 
 ### `GET /api/hello`
 Endpoint de healthcheck. Verifica se a aplicação está no ar.
@@ -53,7 +53,7 @@ Retorna apenas o cardápio do restaurante especificado.
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 fastapi-venv/
@@ -66,7 +66,7 @@ fastapi-venv/
 
 ---
 
-## 🚀 Como executar
+## Como executar
 
 ### Pré-requisitos
 
@@ -101,7 +101,7 @@ Documentação interativa (Swagger): `http://localhost:8000/docs`
 
 ---
 
-## 🌐 Fonte dos Dados
+## Fonte dos Dados
 
 Os dados são obtidos em tempo real da API pública:
 
@@ -113,13 +113,13 @@ A aplicação **não utiliza banco de dados** — todos os dados são processado
 
 ---
 
-## 🔒 Autenticação
+## Autenticação
 
 Esta API não possui autenticação. Todos os endpoints são públicos.
 
 ---
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Uvicorn](https://www.uvicorn.org/)
